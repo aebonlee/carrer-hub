@@ -10,7 +10,7 @@ const site: SiteConfig = {
   name: 'DreamIT Career Hub',
   nameKo: '드림아이티 커리어학습사이트',
   description: 'DreamIT Career Hub - 커리어 학습사이트 허브. 취업, 진로, 역량개발 등 3개 커리어 학습 플랫폼',
-  url: 'https://carrer-hub.dreamitbiz.com',
+  url: 'https://career-hub.dreamitbiz.com',
   dbPrefix: 'crh_',
 
   parentSite: { name: 'DreamIT Biz', url: 'https://www.dreamitbiz.com' },

@@ -1,7 +1,7 @@
 {
   "name": "dreamitbiz-career-hub",
   "description": "커리어 학습사이트 허브",
-  "homepage": "https://carrer-hub.dreamitbiz.com",
+  "homepage": "https://career-hub.dreamitbiz.com",
   "private": true,
   "version": "1.0.0",
   "type": "module",
