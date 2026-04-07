@@ -80,6 +80,7 @@ const site: SiteConfig = {
   footerLinks: [
     { path: '/courses/career', labelKey: 'site.nav.career' },
     { path: '/franchise', labelKey: 'site.nav.franchise' },
+    { path: '/pricing', labelKey: 'site.nav.pricing' },
     { path: '/about', labelKey: 'site.nav.community' },
   ],
 
