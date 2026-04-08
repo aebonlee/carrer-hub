@@ -56,7 +56,6 @@ const site: SiteConfig = {
       labelKey: 'site.nav.career', path: '/courses/career', activePath: '/courses/career',
       dropdown: [
         { path: '/courses/career-dev', labelKey: 'site.nav.careerDev' },
-        { path: '/courses/competency', labelKey: 'site.nav.competency' },
       ]
     },
     {
@@ -112,18 +111,6 @@ const site: SiteConfig = {
       features: ['커리어 상담', '멘토링 프로그램', '네트워킹 이벤트'],
       featuresEn: ['Career counseling', 'Mentoring program', 'Networking events'],
       target: '직장인, 경력 전환 희망자', targetEn: 'Professionals, career changers',
-    },
-    {
-      id: 'competency', name: '역량개발', nameEn: 'Competency Development', url: 'https://competency.dreamitbiz.com',
-      icon: 'fa-solid fa-star', color: '#7C3AED', category: 'career',
-      description: '직무 역량 강화와 자기개발을 위한 학습 프로그램을 제공합니다.',
-      descriptionEn: 'Provides learning programs for job competency enhancement and self-development.',
-      techStack: ['직무역량', '소프트스킬', '프로젝트관리', '커뮤니케이션'], difficulty: 'intermediate',
-      curriculum: ['핵심 직무 역량 진단', '커뮤니케이션 스킬', '프로젝트 관리', '문제 해결과 의사결정', '자기개발 전략'],
-      curriculumEn: ['Core competency assessment', 'Communication skills', 'Project management', 'Problem solving and decision making', 'Self-development strategy'],
-      features: ['역량 진단 도구', '실무 워크숍', '1:1 코칭'],
-      featuresEn: ['Competency assessment tool', 'Practical workshops', '1:1 coaching'],
-      target: '직장인, 리더 지망생', targetEn: 'Professionals, aspiring leaders',
     },
     // ── 커리어 서비스 (service) ──
     {
