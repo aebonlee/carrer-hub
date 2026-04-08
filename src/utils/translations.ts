@@ -178,6 +178,10 @@ export const translations: Record<string, Record<string, unknown>> = {
         jobpath: '취업 로드맵',
         careerDev: '경력개발',
         competency: '역량개발',
+        service: '커리어 서비스',
+        careerSite: '맞춤 커리어 사이트 제작',
+        careerCoaching: '1:1 커리어 코칭',
+        resumeCoaching: '이력서 & 자소서 코칭',
         pricing: '요금제',
         franchise: '사이트분양',
         franchiseInquiry: '분양 문의',
@@ -189,7 +193,7 @@ export const translations: Record<string, Record<string, unknown>> = {
       home: {
         title: 'DreamIT Career Hub',
         subtitle: '커리어 학습의 새로운 기준',
-        heroDesc: '취업, 진로, 역량개발 — 커리어 3개 학습사이트를 하나의 허브에서 만나보세요.',
+        heroDesc: '취업, 진로, 역량개발, 커리어 서비스 — 커리어 6개 학습사이트를 하나의 허브에서 만나보세요.',
         ctaStart: '강좌 둘러보기',
         ctaFranchise: '사이트 분양 문의',
         statsTitle: 'Career Hub 현황',
@@ -202,8 +206,9 @@ export const translations: Record<string, Record<string, unknown>> = {
         categoryCoursesCount: '개 강좌',
         categoryViewAll: '전체 보기',
         categoryCareerDesc: '취업 준비, 경력 개발, 역량 강화를 체계적으로 학습합니다.',
+        categoryServiceDesc: '맞춤 커리어 사이트 제작, 1:1 코칭, 이력서/자소서 코칭 등 프리미엄 서비스를 제공합니다.',
         ctaBottomTitle: '지금 커리어 학습을 시작하세요',
-        ctaBottomDesc: '3개 커리어 학습사이트에서 체계적인 커리큘럼으로 학습할 수 있습니다.',
+        ctaBottomDesc: '6개 커리어 학습사이트에서 체계적인 커리큘럼으로 학습할 수 있습니다.',
         ctaBottomBtn: '강좌 시작하기'
       },
       courses: {
@@ -215,7 +220,8 @@ export const translations: Record<string, Record<string, unknown>> = {
         visitSite: '사이트 방문하기',
         comingSoon: '준비중',
         categoryTitle: {
-          career: '취업/진로 강좌'
+          career: '취업/진로 강좌',
+          service: '커리어 서비스'
         }
       },
       difficulty: {
@@ -511,6 +517,10 @@ export const translations: Record<string, Record<string, unknown>> = {
         jobpath: 'Job Path',
         careerDev: 'Career Development',
         competency: 'Competency Development',
+        service: 'Career Services',
+        careerSite: 'Custom Career Site',
+        careerCoaching: '1:1 Career Coaching',
+        resumeCoaching: 'Resume & Cover Letter Coaching',
         pricing: 'Pricing',
         franchise: 'Site Franchise',
         franchiseInquiry: 'Franchise Inquiry',
@@ -522,7 +532,7 @@ export const translations: Record<string, Record<string, unknown>> = {
       home: {
         title: 'DreamIT Career Hub',
         subtitle: 'A New Standard for Career Learning',
-        heroDesc: 'Job preparation, career development, competency building — explore 3 career learning sites all in one hub.',
+        heroDesc: 'Job preparation, career development, competency building, and career services — explore 6 career learning sites all in one hub.',
         ctaStart: 'Browse Courses',
         ctaFranchise: 'Franchise Inquiry',
         statsTitle: 'Career Hub Overview',
@@ -535,8 +545,9 @@ export const translations: Record<string, Record<string, unknown>> = {
         categoryCoursesCount: ' courses',
         categoryViewAll: 'View All',
         categoryCareerDesc: 'Systematically learn job preparation, career development, and competency building.',
+        categoryServiceDesc: 'Premium services including custom career sites, 1:1 coaching, and resume/cover letter coaching.',
         ctaBottomTitle: 'Start Your Career Learning Today',
-        ctaBottomDesc: 'Learn with structured curricula across 3 career learning sites.',
+        ctaBottomDesc: 'Learn with structured curricula across 6 career learning sites.',
         ctaBottomBtn: 'Get Started'
       },
       courses: {
@@ -548,7 +559,8 @@ export const translations: Record<string, Record<string, unknown>> = {
         visitSite: 'Visit Site',
         comingSoon: 'Coming Soon',
         categoryTitle: {
-          career: 'Career Development Courses'
+          career: 'Career Development Courses',
+          service: 'Career Services'
         }
       },
       difficulty: {

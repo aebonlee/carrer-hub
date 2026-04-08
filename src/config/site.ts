@@ -9,7 +9,7 @@ const site: SiteConfig = {
   id: 'career-hub',
   name: 'DreamIT Career Hub',
   nameKo: '드림아이티 커리어학습사이트',
-  description: 'DreamIT Career Hub - 커리어 학습사이트 허브. 취업, 진로, 역량개발 등 3개 커리어 학습 플랫폼',
+  description: 'DreamIT Career Hub - 커리어 학습사이트 허브. 취업, 진로, 역량개발, 커리어 서비스 등 6개 커리어 학습 플랫폼',
   url: 'https://career-hub.dreamitbiz.com',
   dbPrefix: 'crh_',
 
@@ -48,6 +48,7 @@ const site: SiteConfig = {
 
   categories: [
     { id: 'career', name: '취업/진로', nameEn: 'Career Development', icon: 'fa-solid fa-briefcase', path: '/courses/career' },
+    { id: 'service', name: '커리어 서비스', nameEn: 'Career Services', icon: 'fa-solid fa-handshake', path: '/courses/service' },
   ],
 
   menuItems: [
@@ -57,6 +58,14 @@ const site: SiteConfig = {
         { path: '/courses/jobpath', labelKey: 'site.nav.jobpath' },
         { path: '/courses/career-dev', labelKey: 'site.nav.careerDev' },
         { path: '/courses/competency', labelKey: 'site.nav.competency' },
+      ]
+    },
+    {
+      labelKey: 'site.nav.service', path: '/courses/service', activePath: '/courses/service',
+      dropdown: [
+        { path: '/courses/career-site', labelKey: 'site.nav.careerSite' },
+        { path: '/courses/career-coaching', labelKey: 'site.nav.careerCoaching' },
+        { path: '/courses/resume-coaching', labelKey: 'site.nav.resumeCoaching' },
       ]
     },
     {
@@ -79,6 +88,7 @@ const site: SiteConfig = {
 
   footerLinks: [
     { path: '/courses/career', labelKey: 'site.nav.career' },
+    { path: '/courses/service', labelKey: 'site.nav.service' },
     { path: '/franchise', labelKey: 'site.nav.franchise' },
     { path: '/pricing', labelKey: 'site.nav.pricing' },
     { path: '/about', labelKey: 'site.nav.community' },
@@ -127,6 +137,43 @@ const site: SiteConfig = {
       features: ['역량 진단 도구', '실무 워크숍', '1:1 코칭'],
       featuresEn: ['Competency assessment tool', 'Practical workshops', '1:1 coaching'],
       target: '직장인, 리더 지망생', targetEn: 'Professionals, aspiring leaders',
+    },
+    // ── 커리어 서비스 (service) ──
+    {
+      id: 'career-site', name: '맞춤 커리어 사이트 제작', nameEn: 'Custom Career Site', url: '#', isService: true,
+      icon: 'fa-solid fa-globe', color: '#0891B2', category: 'service', price: 50000,
+      description: '개인 맞춤형 커리어 포트폴리오 사이트를 제작해 드리는 프리미엄 서비스입니다.',
+      descriptionEn: 'A premium service that creates your personalized career portfolio website.',
+      techStack: ['포트폴리오', '웹사이트', '브랜딩', '맞춤제작'], difficulty: 'beginner',
+      curriculum: ['요구사항 분석 미팅', '디자인 시안 제작', '사이트 개발 및 배포', '콘텐츠 입력 지원', '유지보수 가이드 제공'],
+      curriculumEn: ['Requirements analysis meeting', 'Design mockup creation', 'Site development and deployment', 'Content input support', 'Maintenance guide provided'],
+      features: ['1:1 맞춤 제작', '반응형 디자인', '배포 포함'],
+      featuresEn: ['1:1 custom creation', 'Responsive design', 'Deployment included'],
+      target: '취업 준비생, 프리랜서, 커리어 전환 희망자', targetEn: 'Job seekers, freelancers, career changers',
+    },
+    {
+      id: 'career-coaching', name: '1:1 커리어 코칭', nameEn: '1:1 Career Coaching', url: '#', isService: true,
+      icon: 'fa-solid fa-user-tie', color: '#6D28D9', category: 'service',
+      description: '전문 커리어 코치와 1:1 상담을 통해 진로 방향을 설계합니다.',
+      descriptionEn: 'Design your career path through 1:1 consultation with a professional career coach.',
+      techStack: ['1:1상담', '진로설계', '직무분석', '커리어전략'], difficulty: 'beginner',
+      curriculum: ['커리어 진단과 자기분석', '직무 적합성 평가', '진로 방향 설계', '실행 계획 수립', '후속 관리 상담'],
+      curriculumEn: ['Career diagnosis and self-analysis', 'Job suitability assessment', 'Career direction design', 'Action plan development', 'Follow-up consultation'],
+      features: ['전문 코치 매칭', '맞춤 상담', '후속 관리'],
+      featuresEn: ['Professional coach matching', 'Personalized consultation', 'Follow-up management'],
+      target: '진로 고민이 있는 학생, 직장인', targetEn: 'Students and professionals with career concerns',
+    },
+    {
+      id: 'resume-coaching', name: '이력서 & 자소서 코칭', nameEn: 'Resume & Cover Letter Coaching', url: '#', isService: true,
+      icon: 'fa-solid fa-file-pen', color: '#DC2626', category: 'service',
+      description: '전문가의 첨삭과 코칭을 통해 합격하는 이력서와 자기소개서를 완성합니다.',
+      descriptionEn: 'Complete winning resumes and cover letters through expert review and coaching.',
+      techStack: ['이력서', '자기소개서', '첨삭', '면접대비'], difficulty: 'beginner',
+      curriculum: ['이력서 기본 구조 점검', '자기소개서 스토리 설계', '전문가 첨삭 1회', '면접 대비 핵심 포인트', '최종 완성본 전달'],
+      curriculumEn: ['Resume structure review', 'Cover letter story design', 'Expert review session', 'Interview preparation key points', 'Final document delivery'],
+      features: ['전문가 첨삭', '맞춤 코칭', '합격 사례 분석'],
+      featuresEn: ['Expert review', 'Personalized coaching', 'Success case analysis'],
+      target: '취업 준비생, 이직 희망자', targetEn: 'Job seekers, career changers',
     },
   ],
 };
