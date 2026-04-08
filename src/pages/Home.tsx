@@ -8,6 +8,7 @@ import type { ReactElement, RefObject } from 'react';
 
 const CATEGORY_DESC_KEYS: Record<string, string> = {
   'career': 'site.home.categoryCareerDesc',
+  'service': 'site.home.categoryServiceDesc',
 };
 
 const Home = (): ReactElement => {
